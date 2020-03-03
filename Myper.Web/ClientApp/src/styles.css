@@ -14,3 +14,13 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.btn-dark {
+  background: #000;
+  border-radius: 1.5em;
+}
+
+.btn-dark__submit {
+  height: 52px;
+  font-size: 26px;
+}

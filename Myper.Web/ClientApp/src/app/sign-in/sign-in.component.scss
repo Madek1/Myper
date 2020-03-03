@@ -1,0 +1,40 @@
+.background {
+    height: calc(100vh - 350px);
+    background: url('https://thumbs.dreamstime.com/b/street-map-town-136899267.jpg');
+
+    &::after {
+        content: '';
+        width: 100vw;
+        height: calc(100vh - 350px);
+        background: #1D2733;
+        position: absolute;
+        opacity: .9;
+    }
+}
+
+.login-container {
+    height: calc(350px - 3em);
+    box-sizing: border-box;
+}
+
+.login-form {
+    margin-top: -3em;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 0 10px black;
+}
+
+.form-control__input {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+
+    &:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: none !important;
+        border-bottom: 1px solid #495f7a;
+    }
+}
