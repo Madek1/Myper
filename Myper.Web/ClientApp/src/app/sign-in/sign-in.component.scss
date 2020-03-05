@@ -23,18 +23,3 @@
     border-radius: 1em;
     box-shadow: 0 0 10px black;
 }
-
-.form-control__input {
-    border: 0;
-    border-radius: 0;
-    border-bottom: 1px solid #000;
-
-    &:focus {
-        color: #495057;
-        background-color: #fff;
-        border-color: #80bdff;
-        outline: 0;
-        box-shadow: none !important;
-        border-bottom: 1px solid #495f7a;
-    }
-}
